@@ -1,0 +1,14 @@
+{
+  "name": "moodle-exam-prep",
+  "description": "Exam-prep tutor for Claude Code, working from your Moodle courses.",
+  "owner": {
+    "name": "DenizCiger"
+  },
+  "plugins": [
+    {
+      "name": "moodle-exam-prep",
+      "source": "./",
+      "description": "Exam-prep tutor skill + guard hook that keeps Claude from doing your practice work; uses the moodle-mcp server."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[package]
+name = "exam-guard"
+version = "0.1.0"
+edition = "2024"
+description = "PreToolUse hook for the moodle-exam-prep Claude Code plugin: keeps Claude from writing the student's practice work"
+license = "MIT"
+
+[dependencies]
+regex = "1"
+serde_json = "1"
